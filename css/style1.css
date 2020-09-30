@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0 auto;
+	color:white;
+	background: #33383A;
+	font-family: "courier-new",courier,monospace;
+}
+#menu{
+	float: right;
+	cursor: pointer;
+	margin: 2%;
+}
+#menu:hover{
+	background: #33383A;
+	border:1px solid white;
+	color:white;
+}
+#option{
+	list-style: none;
+	padding:1%;
+	float: right;
+	background: white;
+}
+#option li{
+	border-bottom:1px solid #33383A;
+	padding-top:1%;
+}
+#option a{
+	text-decoration: none;
+	color:#33383A;
+}
+#option a:hover{
+	color:#E2566D;
+}
+.page1{
+	width: 80%;
+	margin:0 auto;
+	padding: 20% 0;
+}
+.foto{
+	padding:15px;
+	text-align: center;
+}
+.foto img{
+	height:15rem;
+	width:10rem;
+}
+.intro{
+	padding:1% 5%;
+	text-align: center;
+}
+.name{
+	color:#E2566D;
+	text-transform: uppercase;
+}
+.bio{
+	margin:2%;
+	padding: 2% 3%;
+	background: #33383A;
+	color:#E2566D;
+	border:1px solid #E2566D;
+	text-transform: uppercase;
+}
+.bio:hover{
+	background: #ECC9CB;
+	color: #33383A;
+}
+.page2{
+	padding-top:10%; 
+	margin: 0 auto;
+	background: #33383A;
+}
+.aboutme{
+	background: #D3D8DA;
+	color: #33383A;
+	padding:15% 4%;
+	text-align: center;
+}
+.aboutme h2{
+	color:#2C2B30;
+	text-transform: uppercase;
+	padding-bottom: 1%;
+}
+.aboutme img{
+	height:15rem;
+	width: 10rem;
+}
+.academics, .skills, .hobby{
+	width: 80%;
+	padding:12% 1.5%;
+	margin:20% auto;
+	border:1px solid #33383A;
+	background: #4F575A;
+	text-align: center;
+	color:#ECC9CB;
+}
+.contact{
+	width:80%;
+	padding:5% 1.5%;
+	margin:0 auto;
+	background: #4F575A;
+	text-align: center;
+}
+.academics img, .skills img, .hobby img, .contact img{
+	height: 10rem;
+	width: 10rem;
+}
+.academics h2, .skills h2, .hobby h2, .contact h2{
+	color: #E2566D;
+	text-transform: uppercase;
+	padding-top: 3%;
+	padding-bottom:1%;
+}
+.academics li{
+	list-style: none;
+}
+.pro, .fe, .read, .thread{
+	box-sizing: border-box;
+	background:#33383A;
+	padding: 1%;
+	margin: 1%;
+}
+@media(min-width:1024px){
+	.foto{
+		float:left;
+	}
+	.intro{
+		padding:10% 5%;
+		font-size: 1rem;
+	}
+	.flex-1, .flex-2{
+		display:flex;
+		justify-content: space-around;
+	}
+	.pro,.fe,.read,.thread{
+		width:50%;
+	}
+}
+.contact nav{
+	width:80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.contact img{
+	height:2.5rem;
+	width:2.5rem;
+}
+footer{
+	color:white;
+	text-align: center;
+	font-size: 0.5rem;
+}
